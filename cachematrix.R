@@ -1,5 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2: Lexical Scoping
+## This program compute the inverse of a matrix. For example:
+## Let be
+## (a<-matrix(1:4,2,2))
+## then the matrix inverse of "a" is the matrix b
+## x<-makeCacheMatrix(a)
+## (b<-cacheSolve(x))
 
 # makeCacheMatrix: This function creates a special "matrix" object that can 
 #                  cache its inverse.
@@ -35,7 +40,4 @@ cacheSolve<- function(x, ...) {
     i  
     
 }
-## Exapmle:
-(a<-matrix(1:4,2,2))
-x<-makeCacheMatrix(a)
-cacheSolve(x)
+
